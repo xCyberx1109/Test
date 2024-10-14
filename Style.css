@@ -1,0 +1,101 @@
+body {
+    /* background-color: black; */
+    /* display: table; */
+}
+
+p {
+    font-size: 30px;
+    display: inline-block;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 30% 30% 25%;
+    justify-content: space-between;
+    width: 300px;
+    height: 425px;
+    /* color: aliceblue;*/
+    display: inline-block;
+    /* overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;  */
+}
+
+img {
+    line-height: 0%;
+    display: inline-block;
+    width: 250px;
+    height: 325px;
+}
+
+
+
+h1 {
+    /* color: aliceblue; */
+    /* font-family: Helvetica; */
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 0%;
+}
+
+li {
+    display: block;
+    /* color: aliceblue; */
+    font-size: 20px;
+}
+
+footer {
+    /* color: aliceblue; */
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 500px;
+    border-radius: 100px;
+    font-size: xx-large;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    border: none;
+}
+
+button:hover {
+    /* transition-duration: 1s;
+    transition-delay: 1s; */
+    color: black;
+    background-color: white;
+    border: solid 3px black;
+}
+
+.navBar ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navBar a:hover{
+    background-color: rgb(99, 99, 99);
+}
+.navBar li{
+
+    float: left;
+}
